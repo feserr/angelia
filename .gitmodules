@@ -1,0 +1,3 @@
+[submodule "external/hephaestus"]
+	path = external/hephaestus
+	url = git@github.com:feserr/hephaestus.git
