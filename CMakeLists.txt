@@ -5,7 +5,8 @@ set(REPO_VERSION 0.1.0)
 
 project(${NAME} VERSION ${REPO_VERSION} DESCRIPTION "TCP socket library")
 
-set(CMAKE_C_STANDARD 99)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 11)
 
 # Set the debug or relese mode.
 if (CMAKE_BUILD_TYPE MATCHES Debug)
@@ -20,10 +21,10 @@ endif()
 add_subdirectory(external/hephaestus)
 
 set(SOURCE_FILES
-  src/server.c
-  src/client.c
-  src/send.c
-  src/recv.c)
+  src/server.cpp
+  src/client.cpp
+  src/send.cpp
+  src/recv.cpp)
 
 set(HEADER_PATHS include)
 set(HEADER_FILES

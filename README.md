@@ -21,17 +21,17 @@
 
 <a name="about"></a>
 
-# Angelia 0.1.0
+# Angelia 0.2.0
 
 Angelia is an open source TCP socket library.
 
-Version: 0.1.0 - Released: 7rd June 2020
+Version: 0.2.0 - Released: 25th October 2020
 
 <a name="whats-new"></a>
 
-## What's new in 0.1.0?
+## What's new in 0.2.0?
 
-- Client, server, send and receive.
+- Convert to C++.
 
 <a name="how-to-build"></a>
 
